@@ -22,16 +22,15 @@ BotoFood is a modern food ordering application developed using **Next.js**. The 
 
 ## 📸 Screenshots
 
-<img width="1920" height="2825" alt="BotoFood Capture -  -  localhost" src="https://github.com/user-attachments/assets/2372c539-2310-4be1-826a-e884ad2ce685" />
+<img width="1920" height="2825" alt="BotoFood Capture 041 -  -  localhost" src="https://github.com/user-attachments/assets/c78ce54d-f542-4a63-bbc1-030c62e63315" />
 
-<img width="1920" height="2719" alt="BotoFood Capture -  -  Menu" src="https://github.com/user-attachments/assets/dca88867-bf06-4bb6-b98e-a321647d52f3" />
+<img width="1920" height="2719" alt="BotoFood Capture -  -  Menu" src="https://github.com/user-attachments/assets/7f115288-15e9-47c2-b620-8c9934977681" />
 
-<img width="1920" height="1547" alt="BotoFood Capture -  -  Category" src="https://github.com/user-attachments/assets/40e13408-d69b-48f9-bb2f-733456c56f4c" />
-
+<img width="1920" height="1547" alt="BotoFood Capture -  -  Category" src="https://github.com/user-attachments/assets/55bd0e38-297d-4df5-871d-4d1e365abd63" />
 
 ## 🔗 Live Demo
 
-👉 [Your Live Demo Link](https://github.com/springtofigh/next-botofood)
+👉 [Your Live Demo Link](https://nextbotofood.vercel.app/)
 
 ## 📦 Installation
 
