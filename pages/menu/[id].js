@@ -16,7 +16,7 @@ export default Details;
 
 export async function getStaticPaths() {
 
-  const res = await fetch('http://localhost:4000/data')
+  const res = await fetch(`${process.env.BASE_URL}/data`)
   const foods = await res.json()
   const data = foods.slice(0, 10)
  
@@ -31,7 +31,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params }) {
 
-  const res = await fetch(`http://localhost:4000/data/${params.id}`)
+  const res = await fetch(`${process.env.BASE_URL}/data/${params.id}`)
   const food = await res.json()
 
   if (!food.id) {
@@ -41,5 +41,5 @@ export async function getStaticProps({ params }) {
   }
  
   // Pass post data to the page via props
-  return { props: { food }, revalidate: 3600, }
+  return { props: { food }, revalidate: +process.env.REVALIDATE, }
 }
